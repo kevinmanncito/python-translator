@@ -5,7 +5,7 @@ from xml.etree import ElementTree
 
 client_id = os.environ.get('TRANSLATE_CLIENT_ID', '')
 
-client_secret = "CxUU4M+Qi1DoQDKC4oy9+KQPiN1kolH57qAQUfycKrA="
+client_secret = os.environ.get('TRANSLATE_CLIENT_SECRET', '')
 
 translator_access_uri = "https://datamarket.accesscontrol.windows.net/v2/OAuth2-13"
 
